@@ -26,11 +26,23 @@ The very first thing is clone **prismERP** from server repository. To clone, you
 
 ####  Disable SSL security 
 Go to 
-	Tools>Options
-	Select Git tab
-	Select Git tab
-	Check the "Disable SSL certificate validation"
+	Tools>Options 
+	 --> Select Git tab
+	 --> Select Git tab
+	 --> Check the "Disable SSL certificate validation"
 	![ ](https://github.com/uzzal-divineit/sphinx_documentatin/blob/master/res/disable_SSL.png)
+
+#### Clone 
+from source tree, select clone sub menu 
+![](https://github.com/uzzal-divineit/sphinx_documentatin/blob/master/res/clone_menue.png)
+
+now enter remote git address and location of local folder
+here, our remote git repository address is ```https://git.divineit.net/prism/prism-all.git```
+
+
+![](https://github.com/uzzal-divineit/sphinx_documentatin/blob/master/res/clone_location.png)
+
+click clone
 
   [1]: https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.3.9/apache-maven-3.3.9-bin.zip
   [2]: http://
