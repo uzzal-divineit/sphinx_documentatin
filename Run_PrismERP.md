@@ -15,13 +15,22 @@ PrismERP has its own repository structure that needs some defined steps to succe
 > - **Access Permission:** You need access permission for your  git account. Without it, you cannot clone the. *(See  [environment setup][2] )*
 > - **Environment Setup:** you need to add [apache-maven-3.3.9][1] to your environment variable path and also ``` JAVA_HOME ``` to your system variable. *(See  [environment setup][2] )*
 
-# Cloning
-You have two options for cloning
+# Cloning from server repository
+The very first thing is clone **prismERP** from server repository. To clone, you have two options-
 
-	1. Using Source Tree GUI software 
-	2. Using terminal/cmd
+	A. Using Source Tree GUI software 
+	B. Using terminal/cmd
 
-## Method-1:  Using **Source tree**
+### Method-A:  *Using Source tree GUI*
+>-  **Note:** Divine IT git server has no SSL security certification. you need to manually disable SSL security option for cloning from git.divineit.net. 
+
+####  Disable SSL security 
+Go to 
+	Tools>Options
+	Select Git tab
+	Select Git tab
+	Check the "Disable SSL certificate validation"
+	![ ](https://github.com/uzzal-divineit/sphinx_documentatin/blob/master/res/disable_SSL.png)
 
   [1]: https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.3.9/apache-maven-3.3.9-bin.zip
   [2]: http://
