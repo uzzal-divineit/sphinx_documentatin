@@ -15,7 +15,7 @@ PrismERP has its own repository structure that needs some defined steps to succe
 > - **Access Permission:** You need access permission for your  git account. Without it, you cannot clone the. *(See  [environment setup][2] )*
 > - **Environment Setup:** you need to add [apache-maven-3.3.9][1] to your environment variable path and also ``` JAVA_HOME ``` to your system variable. *(See  [environment setup][2] )*
 
-#Cloning
+# Cloning
 You have two options for cloning
 
 	1. Using Source Tree GUI software 
